@@ -28,7 +28,7 @@ if st.button("🚀 Analyser", type="primary"):
                 # Règles simples basées sur les mots-clés
                 positive_words = ['bien', 'heureux', 'content', 'joyeux', 'super', 'bon']
                 negative_words = ['triste', 'seul', 'vide', 'déprimé', 'mal', 'pessimiste']
-                severe_words = ['suicide', 'mort', 'finir', 'désespoir', 'plus d'espoir']
+                severe_words = ['suicide', 'mort', 'finir', 'désespoir', 'plus despoir']  # CORRIGÉ
                 
                 score = 0
                 for word in positive_words:
